@@ -41,8 +41,8 @@ Module declarations take comma separated entries formatted like
 RUST_LOG="warn,test::foo=info,test::foo::bar=debug" ./test
 ```
 
-Sets the default [`log::Level`] to `warn`, module `foo` and module `foo::bar`
-to `info` and `debug`.
+Sets the default [`log::Level`] to `warn`, module `foo` to `info` and module 
+`foo::bar` to `debug`.
 
 ```bash
 WARN:test: [root] warn
